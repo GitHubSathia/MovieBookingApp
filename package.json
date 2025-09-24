@@ -1,0 +1,12 @@
+{
+  "name": "cinema-booking-system",
+  "version": "1.0.0",
+  "description": "Cinema booking management system prototype",
+  "scripts": {
+    "compile": "javac -cp \".:lib/*\" -d target/classes src/main/java/com/cinema/booking/*.java src/main/java/com/cinema/booking/*/*.java",
+    "run": "java -cp \"target/classes:lib/*\" com.cinema.booking.CinemaBookingApplication",
+    "start": "npm run compile && npm run run"
+  },
+  "dependencies": {},
+  "devDependencies": {}
+}
